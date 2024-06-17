@@ -40,23 +40,26 @@ export const navLinks = [
   },
 ];
 
-const services = [
+const services = [  
   {
     title: "Android Developer",
-    icon: web,
+    icon: mobile,
   },
   {
     title: "Mobile App Developer",
     icon: mobile,
   },
+
+ {
+    title: "AI/ML/Dapps/LLM model based apps",
+    icon: mobile,
+  },
+
   {
     title: "Full Stack Developer",
     icon: backend,
   },
-  {
-    title: "AI/ML/LLM/DApp based apps",
-    icon: creator,
-  },
+
 ];
 
 const technologies = [
@@ -117,7 +120,7 @@ const technologies = [
 const experiences = [
   {
     title: "Android Developer",
-    icon: starbucks,
+    icon: mobile,
     iconBg: "#383E56",
     date: "2021 - october 2022",
     points: [
@@ -131,7 +134,7 @@ const experiences = [
   {
     title: "Mobile app development",
 
-    icon: tesla,
+    icon: mobile,
     iconBg: "#E6DEDD",
     date: "2022 - Feb 2023",
     points: [
@@ -144,8 +147,7 @@ const experiences = [
   },
   {
     title: "AI-ML Model based app ",
-    company_name: "Shopify",
-    icon: shopify,
+    icon: mobile,
     iconBg: "#383E56",
     date: "2023 - sep 2023",
     points: [
@@ -158,8 +160,7 @@ const experiences = [
   },
   {
     title: "Full stack Mobile App Developer",
-    company_name: "Meta",
-    icon: meta,
+    icon: mobile,
     iconBg: "#E6DEDD",
     date: " 2023 - Present",
     points: [
